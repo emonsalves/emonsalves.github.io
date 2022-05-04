@@ -8,7 +8,6 @@ body {
   color: white;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -17,14 +16,11 @@ body {
   margin-bottom: 0rem;
   }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10px;
-}
+
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 30rem;
 }
 .carousel-item > img {
   position: absolute;
@@ -34,19 +30,25 @@ body {
   height: 32rem;
 }
 
-.carousel-caption h1{
+.carousel-caption h2{
   background-color: black;
+  border: solid 1px white;
+  border-radius: 5px;
   display: inline-block;
   margin: 0px;
-  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 footer li, ul{
   list-style:none
 }
 
-
 /* RESPONSIVE CSS
--------------------------------------------------- */
+/* -------------------------------------------------- */
 
 @media (min-width: 40em) {}
   /* Bump up size of carousel content */
@@ -54,8 +56,10 @@ footer li, ul{
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-  }
+  } */
 
   .btn:hover {
     color: red;
+    font-size: 1rem;
+    font-weight: 900;
   }
