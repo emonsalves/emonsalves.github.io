@@ -8,7 +8,9 @@ body {
   color: white;
   background-image: url(../img/fondo.jpg);
 }
-
+.navbar {
+  background-image: url(../img/fondo.jpg);
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -62,3 +64,4 @@ ul {
   font-size: 1rem;
   font-weight: 900;
 }
+
