@@ -6,6 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 1rem;
   color: white;
+  background-image: url(../img/fondo.jpg);
 }
 
 /* CUSTOMIZE THE CAROUSEL
