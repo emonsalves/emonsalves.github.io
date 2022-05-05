@@ -18,173 +18,212 @@
   <link href="assets/css/style1.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark">
-    <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark pt-2 pb-2">
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top pt-2 pb-2">
       <div class="container-fluid">
-        <h1 class="navbar-brand ms-3">Portafolio Enzo Monsalves</h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-          <form class="d-flex">
-            <a href="https://empieza.desafiolatam.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success" type="submit">IR A DESAFIO LATAM</a>
-            <a href="cv.html" rel="noopener noreferrer" class="btn btn-outline-success" type="submit">IR A CV</a>
-          </form>
-        </div>
+        <h1 class="navbar-brand ms-3">
+          <h2><span class="spinner-border"></span> <strong>Portafolio <br> </strong> Enzo Monsalves</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <form class="d-flex">
+              <a href="https://empieza.desafiolatam.com" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-warning me-1" type="submit">IR A DESAFIO LATAM</a>
+            </form>
+          </div>
       </div>
     </nav>
-    </header>
+  </header>
   <main>
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <div class="container justify-content-center pt-5 pb-3">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2500">
+            <img src="assets/img/desafio1.png" class="img-fluid text-center" alt="ScrenShoot del Desafio 1">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>DESAFIO 1.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="assets/img/desafio2.png" class="img-fluid" alt="ScrenShoot del Desafio 2">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>DESAFIO 2.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="assets/img/desafio3.png" class="img-fluid" alt="ScrenShoot del Desafio 3">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>DESAFIO 3.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="assets/img/desafio4.png" class="img-fluid" alt="ScrenShoot del Desafio 4">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>DESAFIO 4.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="assets/img/desafio5.png" class="img-fluid" alt="ScrenShoot del Desafio 5">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>DESAFIO 5.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/desafio1.png" alt="desafio1">
-  
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>DESAFIO 1.</h1>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/emonsalves/desafio1.git" target="_blank"
-                  rel="noopener noreferrer">Repositorio</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/desafio2.png" alt="desafio2">
-  
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>DESAFIO 2.</h1>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/emonsalves/desafio2.git" target="_blank"
-                  rel="noopener noreferrer">Repositorio</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/desafio3.png" alt="desafio3">
-  
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>DESAFIO 3.</h1>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/emonsalves/desafio3.git" target="_blank"
-                  rel="noopener noreferrer">Repositorio</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/desafio4.png" alt="desafio4">
-  
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>DESAFIO 4.</h1>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/emonsalves/desafio4.git" target="_blank"
-                  rel="noopener noreferrer">Repositorio</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/desafio5.png" alt="desafio5">
-  
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>DESAFIO 5.</h1>
-              <p><a class="btn btn-lg btn-primary" href="https://github.com/emonsalves/desafio5.git" target="_blank"
-                  rel="noopener noreferrer">Repositorio</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-  
     </div>
   </main>
 
   <section>
     <h2 class="text-center mt-3 mb-3">DESCRIPCION DE LO REALIZADO</h2>
-    <div class="album py-5 bg-light mt-0 pt-3 bg-dark">
+    <h2 class="text-center mt-3 mb-3">INTRODUCCION AL DESAROLLO WEB</h2>
+    <div class="album py-5 mt-0 pt-3">
       <div class="container">
-  
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/desafio1.png" alt="desafio1">
-  
+              <img src="assets/img/desafio1.png" alt="ScrenShoot del Desafio 1">
               <div class="card-body bg-dark">
                 <p class="card-text">Este desafio fue realizado el dia 31 de Marzo.<br> En este se realizo un Curriculum
                   Vitae. <br>
                   Se utiliza:
                   <br> <i class="fa-solid fa-thumbs-up"></i> HTML
                 </p>
-                <a href="assets/docs/Desafio - Mi Curriculum Vitae en HTML.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">Descargar Pauta </a>
+                <hr>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <a href="assets/docs/Desafio - Mi Curriculum Vitae en HTML.pdf" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i
+                          class="fa-solid fa-file-pdf fa-2x"></i> </a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="https://emonsalves.github.io/desafio1/" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/desafio2.png" alt="desafio1">
-  
+              <img src="assets/img/desafio2.png" alt="ScrenShoot del Desafio 2">
               <div class="card-body bg-dark">
-                <p class="card-text">Este desafio fue realizado el dia 7 de Abril.<br> En este se realizo un Landing Page.
+                <p class="card-text">Este desafio fue realizado el dia 7 de Abril.<br> En este se realizo un Landing
+                  Page.
                   <br>
                   Se utiliza:
                   <br> <i class="fa-solid fa-thumbs-up"></i>
                   HTML
                 </p>
-                <a href="assets/docs/Desafío 2 - Construyendo un landing page.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">Descargar Pauta </a>
+                <hr>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <a href="assets/docs/Desafío 2 - Construyendo un landing page.pdf" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i
+                          class="fa-solid fa-file-pdf fa-2x"></i> </a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="https://emonsalves.github.io/desafio2/" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/desafio3.png" alt="desafio1">
-  
+              <img src="assets/img/desafio3.png" alt="ScrenShoot del Desafio 3">
               <div class="card-body bg-dark">
-                <p class="card-text">Este desafio fue realizado el dia 14 de Abril.<br> En este se realizo un Iguana Page.
+                <p class="card-text">Este desafio fue realizado el dia 14 de Abril.<br> En este se realizo un Iguana
+                  Page.
                   <br>
                   Se utiliza:
                   <br> <i class="fa-solid fa-thumbs-up"></i>
                   HTML y CSS
                 </p>
-                <a href="assets/docs/Desafío 3 - Iguana page.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">Descargar Pauta </a>
+                <hr>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <a href="assets/docs/Desafío 3 - Iguana page.pdf" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-solid fa-file-pdf fa-2x"></i> </a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="https://emonsalves.github.io/desafio3/" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-  
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/desafio4.png" alt="desafio1">
-  
+              <img src="assets/img/desafio4.png" alt="ScrenShoot del Desafio 4">
               <div class="card-body bg-dark">
-                <p class="card-text">Este desafio fue realizado el dia 21 de Abril.<br> En este se realizo un Cuppon Page.
+                <p class="card-text">Este desafio fue realizado el dia 21 de Abril.<br> En este se realizo un Cuppon
+                  Page.
                   <br>
                   Se utiliza:
                   <br> <i class="fa-solid fa-thumbs-up"></i>
                   HTML, CSS y BOOTSTRAP
                 </p>
-                <a href="assets/docs/Desafío 4 - Cuppon.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">Descargar Pauta </a>
+                <hr>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <a href="assets/docs/Desafío 4 - Cuppon.pdf" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-solid fa-file-pdf fa-2x"></i> </a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="https://emonsalves.github.io/desafio4/" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/desafio5.png" alt="desafio1">
-  
+              <img src="assets/img/desafio5.png" alt="ScrenShoot del Desafio 5">
               <div class="card-body bg-dark">
                 <p class="card-text">Este desafio fue realizado el dia 28 de Abril.<br> En este se realizo un Fork Y
                   Commit en Git. <br>
@@ -192,22 +231,48 @@
                   <br> <i class="fa-solid fa-thumbs-up"></i>
                   GIT Y GITHUB
                 </p>
-                <a href="assets/docs/Desafío 5 - Github.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">Descargar Pauta </a>
+                <hr>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <a href="assets/docs/Desafío Final - Desarrollo de portafolio.pdf" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i
+                          class="fa-solid fa-file-pdf fa-2x"></i> </a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="https://emonsalves.github.io/fdsw-github" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/desafio6.png" alt="desafio1">
-  
+              <img src="assets/img/desafio6.png" alt="ScrenShoot del Desafio 6">
               <div class="card-body bg-dark">
-                <p class="card-text">Este desafio fue realizado el dia 5 de Mayo.<br> En este se realizo un Portafolio con
+                <p class="card-text">Este desafio fue realizado el dia 5 de Mayo.<br> En este se realizo un Portafolio
+                  con
                   todo lo aprendido. <br>
                   Se utiliza:
                   <br> <i class="fa-solid fa-thumbs-up"></i>
                   HTML, CSS, BOOTSTRAP, GIT, GITHUB Y GITPAGE
                 </p>
-                <a href="assets/docs/Desafío Final - Desarrollo de portafolio.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">Descargar Pauta </a>
+                <hr>
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+                    <div class="col-auto">
+                      <a href="assets/docs/Desafío Final - Desarrollo de portafolio.pdf" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i
+                          class="fa-solid fa-file-pdf fa-2x"></i> </a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="https://emonsalves.github.io" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm btn-warning pe-4 ps-4">Ir a <i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -216,27 +281,18 @@
     </div>
     </div>
   </section>
-
-    <!-- BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
+  <footer class="container text-center py-1 my-4 mb-2 border-top">
+    <h4>Termino Modulo 1</h4>
+    <h5>Introduccion al Desarrollo Web</h5>
+    <h6>Desafio Latam G21</h6>
+    <br>
+    <audio autoplay controls src="assets/music/page.mp3" typé="audio/mpeg"></audio>
+  </footer>
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 </body>
-<div class="container">
-  <footer class="d-flex justify-content-center py-1 my-4 mb-2 border-top">
-    <ul>
-      <li>
-         <p>Termino Modulo 1</p>
-      </li>
-      <li>
-        <p>Desafio Latam G21</p>
-      </li>
-    </ul>
-    
-    <br>
-    
 
-  </footer>
-</div>
 </html>
