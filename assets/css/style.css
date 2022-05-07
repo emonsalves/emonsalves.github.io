@@ -1,178 +1,93 @@
-/* html {
-    font-size: 100%;
-} */
-
-/*16px*/
-
 body {
-    background: gray;
-    font-family: 'Bauhaus 93', sans-serif;
-    font-weight: 400;
-    line-height: 1.75;
-    color: #000000;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-image: url(../img/fondo.jpg);
 }
-
-p {
-   
-    margin-bottom: 1rem;
+.navbar {
+  background-image: url(../img/fondo.jpg);
 }
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    /* margin: 3rem 0 1.38rem; */
-    font-family: 'Bauhaus 93', sans-serif;
-    font-weight: 400;
-    line-height: 1.3;
+.carousel {
+  margin-bottom: 0rem;
+  text-align: center;
 }
-
-h1 {
-    margin-top: 0px;
-    font-size: 3.052rem;
+.carousel-item>img {
+margin: auto;
 }
-
-h2 {
-    font-size: 2.441rem;
+.carousel-caption h2 {
+  background-color: black;
+  border: solid 1px white;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-
-h3 {
-    font-size: 1.953rem;
-}
-
-h4 {
-    font-size: 1.563rem;
-}
-
-h5 {
-    font-size: 1.25rem;
-}
-
-small,
-.text_small {
-    font-size: 0.8rem;
-}
-
-.datos {
-    width: 41%;
-}
-
-.card2 ul {
-    width: 100%;
-}
-
-.card2 li {
-    display: inline-block;
-}
-
-.card-body2 {
-    margin-top: 0px;
-    width: 100%;
-   
-    
-}
-
-.card-body3 {
-    margin-top: 0px;
-    width: 100%;
-  
-}
-
-.card-body3 i{
-    margin-left: 10px;
-    text-align: right;  
-}
-.encabezado {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    display: inline-block;
-}
-
-.nombre {
-    font-size: 1.75rem;
-    margin: 0px;
-    padding: 0px;
-}
-
-.profesion {
-    font-size: 1.5rem;
-    margin: 0px;
-    padding: 0px;
-}
-
-.rut {
-    font-size: 1.25rem;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-.logros {
-    background-color: gray;
-    padding: 0px;
-    margin-top: 0px;
-}
-.formacion{
-    background-color: grey;
-}
-
-h4 {
-    text-align: center;
-}
-
-.card-header {
-    background-color: green;
-    border: solid 1px black;
-    padding: 0px;
-}
-
+footer li,
 ul {
-margin-left: 5%;
-margin-top: 1%;
-margin-bottom: 1%;
+  list-style: none
+}
+.btn {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.btn:hover {
+  color: red;
+  font-size: 1rem;
+  font-weight: 900;
 }
 
+/* animacion */
+.animacion { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
 
-.card-body4 ul {
-    margin-left: 0px;
-    padding-left: 0px;
-}
-.list-group{
-    margin: 0px;
-   
-}
-.list-group-item{
-    background-color: lightslategrey;
-   
-}
-.card {
-    background-color: #000000;
-}
+.letrasSec {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	width: 100%;
+  margin: 0px;
+ }
 
-.fotoydatos{
-    width: 50%;
-    margin: auto;
+ .letrasPrin {
+
+  font: 700 3em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+/* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
   
 }
-.card2 {
-    width: 100%;
-}
-.card-body4 {
-    margin-top: 25%;
-    margin-left: 0px;
-    padding-left: 0px;
-}
-
-footer {
-    background-color: green;
-    text-align: center;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-footer p{
-    font-size: 1.25rem;
-    text-transform: uppercase;
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+  
 }
